@@ -13,12 +13,12 @@
 				<a href="#"><img src="svg/noemi-logo.svg" alt="Логотип" class="header__logo"></a>
 				<nav class="menu">
 					<ul class="menu__list">
-						<li class=""><a href="#0" class="menu-list__item">Главная</a></li>
-						<li class=""><a href="#0" class="menu-list__item">посты</a></li>
-						<li class=""><a href="#0" class="menu-list__item">статьи</a></li>
-						<li class=""><a href="#0" class="menu-list__item">теги</a></li>
-						<li class=""><a href="#0" class="menu-list__item">темы</a></li>
-						<li class=""><a href="#0" class="menu-list__item">контакты</a></li>
+						<li class=""><a href="#0" class="menu__list-item">Главная</a></li>
+						<li class=""><a href="#0" class="menu__list-item">посты</a></li>
+						<li class=""><a href="#0" class="menu__list-item">статьи</a></li>
+						<li class=""><a href="#0" class="menu__list-item">теги</a></li>
+						<li class=""><a href="#0" class="menu__list-item">темы</a></li>
+						<li class=""><a href="#0" class="menu__list-item">контакты</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -32,7 +32,7 @@
     <section class="section">
       <div class="section__title">
         <h2 class="title-size">Сейчас в тренде</h2>
-        <div class="title__line"></div>
+        <div class="title-line"></div>
       </div>
 
       <div class="section__articles">
@@ -41,8 +41,8 @@
           <img src="images/trend1.jpg" alt="Картинка тренда" class="article__image">
           <div class="article__subwrap">
             <ul class="article__list">
-              <li><a href="#0" class="article-list__item">Lifestyle</a></li>
-              <li><a href="#0" class="article-list__item">INTERIOR</a></li>
+              <li><a href="#0" class="article__item">Lifestyle</a></li>
+              <li><a href="#0" class="article__item">INTERIOR</a></li>
             </ul>
             <a href="#0">
               <h3 class="article__title">Сейчас в тренде: сад на подоконнике</h3>
@@ -54,7 +54,7 @@
           <img src="./images/trend2.jpg" alt="Картинка тренда" class="article__image">
           <div class="article__subwrap">
             <ul class="article__list">
-              <li><a href="#0" class="article-list__item">Food</a></li>
+              <li><a href="#0" class="article__item">Food</a></li>
             </ul>
             <a href="#0">
               <h3 class="article__title">сыры на красивых картинках из интернета: какие они на вкус?</h3>
@@ -66,8 +66,8 @@
           <img src="./images/trend3.jpg" alt="Картинка тренда" class="article__image">
           <div class="article__subwrap">
             <ul class="article__list">
-              <li><a href="#0" class="article-list__item">Lifestyle</a></li>
-              <li><a href="#0" class="article-list__item">Travel</a></li>
+              <li><a href="#0" class="article__item">Lifestyle</a></li>
+              <li><a href="#0" class="article__item">Travel</a></li>
             </ul>
             <a href="#0">
               <h3 class="article__title">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ</h3>
@@ -79,8 +79,8 @@
           <img src="./images/trend4.jpg" alt="Картинка тренда" class="article__image">
           <div class="article__subwrap">
             <ul class="article__list">
-              <li><a href="#0" class="article-list__item">food</a></li>
-              <li><a href="#0" class="article-list__item">health</a></li>
+              <li><a href="#0" class="article__item">food</a></li>
+              <li><a href="#0" class="article__item">health</a></li>
             </ul>
             <a href="#0">
               <h3 class="article__title">Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?</h3>
@@ -94,192 +94,196 @@
     <div class="wrap aside">
 
       <aside class="aside__left">
-        <article class="left__article">
-          <img src="./images/last-post1.jpg" alt="Картинка поста" class="article__img-left">
-          <div class="article__subwrap-left">
-            <ul class="article__list">
-              <li><a href="#0" class="article-list__item">Travel</a></li>
-              <li><a href="#0" class="article-list__item">health</a></li>
+        <article class="left-article">
+          <img src="./images/last-post1.jpg" alt="Картинка поста" class="left-article__img">
+          <div class="left-article__subwrap">
+            <ul class="left-article__list article__list">
+              <li><a href="#0" class="left-article__item article__item">Travel</a></li>
+              <li><a href="#0" class="left-article__item article__item">health</a></li>
             </ul>
             <a href="#0">
-              <h3 class="article__title article__title-left">
+              <h3 class="left-article__title article__title article__title-left">
                 10 мест, ради которых стоит проснуться на рассвете
               </h3>
             </a>
-            <div class="article__published">
-              <p class="published__date">10 июня 2019</p>
-              <p class="published__author">Неизвестный автор</p>
+            <div class="left-article__published">
+              <p class="left-article__date">10 июня 2019</p>
+              <p class="left-article__author">Неизвестный автор</p>
             </div>
-            <p class="article__text">
+            <p class="left-article__text">
               Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
             </p>
           </div>
         </article>
         
-        <article class="left__article">
-          <img src="./images/last-post2.jpg" alt="Картинка поста" class="article__img-left">
-          <div class="article__subwrap-left">
-            <ul class="article__list">
-              <li><a href="#0" class="article-list__item">health</a></li>
-              <li><a href="#0" class="article-list__item">lifestyle</a></li>
+        <article class="left-article">
+          <img src="./images/last-post2.jpg" alt="Картинка поста" class="left-article__img">
+          <div class="left-article__subwrap">
+            <ul class="left-article__list article__list">
+              <li><a href="#0" class="left-article__item article__item">health</a></li>
+              <li><a href="#0" class="left-article__item article__item">lifestyle</a></li>
             </ul>
             <a href="#0">
-              <h3 class="article__title article__title-left">
+              <h3 class="left-article__title article__title article__title-left">
                 ЙОга для начинающих в домашних условиях
               </h3>
             </a>
-            <div class="article__published">
-              <p class="published__date">10 июня 2019</p>
-              <p class="published__author">Неизвестный автор</p>
+            <div class="left-article__published">
+              <p class="left-article__date">10 июня 2019</p>
+              <p class="left-article__author">Неизвестный автор</p>
             </div>
-            <p class="article__text">
+            <p class="left-article__text">
               Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.
             </p>
           </div>
         </article>
         
-        <article class="left__article">
-          <img src="./images/last-post3.jpg" alt="Картинка поста" class="article__img-left">
-          <div class="article__subwrap-left">
-            <ul class="article__list">
-              <li><a href="#0" class="article-list__item">music</a></li>
+        <article class="left-article">
+          <img src="./images/last-post3.jpg" alt="Картинка поста" class="left-article__img">
+          <div class="left-article__subwrap">
+            <ul class="left-article__list article__list">
+              <li><a href="#0" class="left-article__item article__item">music</a></li>
             </ul>
             <a href="#0">
-              <h3 class="article__title article__title-left">
+              <h3 class="left-article__title article__title article__title-left">
                 Лучшие музыкальные фестивали этого лета
               </h3>
             </a>
-            <div class="article__published">
-              <p class="published__date">10 июня 2019</p>
-              <p class="published__author">Неизвестный автор</p>
+            <div class="left-article__published">
+              <p class="left-article__date">10 июня 2019</p>
+              <p class="left-article__author">Неизвестный автор</p>
             </div>
-            <p class="article__text">
+            <p class="left-article__text">
               Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?
             </p>
-            <p class="article__text">
+            <p class="left-article__text">
               Мы составили список лучших летних фестивалей по всему миру.
             </p>
           </div>
         </article>
         
-        <article class="left__article">
-          <img src="./images/last-post4.jpg" alt="Картинка поста" class="article__img-left">
-          <div class="article__subwrap-left">
-            <ul class="article__list">
-              <li><a href="#0" class="article-list__item">LYFESTYLE</a></li>
-              <li><a href="#0" class="article-list__item">food</a></li>
+        <article class="left-article">
+          <img src="./images/last-post4.jpg" alt="Картинка поста" class="left-article__img">
+          <div class="left-article__subwrap">
+            <ul class="left-article__list article__list">
+              <li><a href="#0" class="left-article__item article__item">LYFESTYLE</a></li>
+              <li><a href="#0" class="left-article__item article__item">food</a></li>
             </ul>
             <a href="#0">
-              <h3 class="article__title article__title-left">
+              <h3 class="left-article__title article__title article__title-left">
                 Наукоёмкий подход к кулинарии
               </h3>
             </a>
-            <div class="article__published">
-              <p class="published__date">10 июня 2019</p>
-              <p class="published__author">Неизвестный автор</p>
+            <div class="left-article__published">
+              <p class="left-article__date">10 июня 2019</p>
+              <p class="left-article__author">Неизвестный автор</p>
             </div>
-            <p class="article__text">
+            <p class="left-article__text">
               Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.
             </p>
           </div>
         </article>
         
-        <article class="left__article">
-          <img src="./images/last-post5.jpg" alt="Картинка поста" class="article__img-left">
-          <div class="article__subwrap-left">
-            <ul class="article__list">
-              <li><a href="#0" class="article-list__item">Lifestyle</a></li>
-              <li><a href="#0" class="article-list__item">INTERIOR</a></li>
-              <li><a href="#0" class="article-list__item">art</a></li>
+        <article class="left-article">
+          <img src="./images/last-post5.jpg" alt="Картинка поста" class="left-article__img">
+          <div class="left-article__subwrap">
+            <ul class="left-article__list article__list">
+              <li><a href="#0" class="left-article__item article__item">Lifestyle</a></li>
+              <li><a href="#0" class="left-article__item article__item">INTERIOR</a></li>
+              <li><a href="#0" class="left-article__item article__item">art</a></li>
             </ul>
             <a href="#0">
-              <h3 class="article__title article__title-left">
+              <h3 class="left-article__title article__title article__title-left">
                 делаем модные принты на подушках для интерьера
               </h3>
             </a>
-            <div class="article__published">
-              <p class="published__date">10 июня 2019</p>
-              <p class="published__author">Неизвестный автор</p>
+            <div class="left-article__published">
+              <p class="left-article__date">10 июня 2019</p>
+              <p class="left-article__author">Неизвестный автор</p>
             </div>
-            <p class="article__text">
+            <p class="left-article__text">
               Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.
             </p>
           </div>
         </article>
       </aside>
 
+
+<!-- sgsgsgsgsh -->
+
+
       <aside class="aside__right">
 
-        <section class="new__posts">
+        <section class="new-posts">
           <div class="section__title">
-            <h2 class="title-size new__posts-title">Новые посты</h2>
-            <div class="title__line"></div>
+            <h2 class="title-size new-posts__title">Новые посты</h2>
+            <div class="title-line"></div>
           </div>
           
-          <article class="left__article right__article">
-            <img src="./images/2.jpg" alt="Картинка поста" class="article__img-right">
-            <div class="article__subwrap-left">  
-              <div class="article__published article__published-right">
-                <p class="published__date">14 июня 2019</p>
+          <article class="left-article right-article">
+            <img src="./images/2.jpg" alt="Картинка поста" class="right-article__img-right">
+            <div class="left-article__subwrap">  
+              <div class="left-article__published right-article__published-right">
+                <p class="left-article__date">14 июня 2019</p>
               </div>
               <a href="#0">
-                <h3 class="article__title-right">
+                <h3 class="right-article__title">
                   10 мест, ради которых стоит проснуться
                 </h3>
               </a>
             </div>
           </article>          
           
-          <article class="left__article right__article">
-            <img src="./images/151.jpg" alt="Картинка поста" class="article__img-right">
-            <div class="article__subwrap-left">  
-              <div class="article__published article__published-right">
-                <p class="published__date">14 июня 2019</p>
+          <article class="left-article right-article">
+            <img src="./images/151.jpg" alt="Картинка поста" class="right-article__img-right">
+            <div class="left-article__subwrap">  
+              <div class="left-article__published right-article__published-right">
+                <p class="left-article__date">14 июня 2019</p>
               </div>
               <a href="#0">
-                <h3 class="article__title-right">
+                <h3 class="right-article__title">
                   Йога для домашних
                 </h3>
               </a>
             </div>
           </article>        
           
-          <article class="left__article right__article">
-            <img src="./images/45.jpg" alt="Картинка поста" class="article__img-right">
-            <div class="article__subwrap-left">  
-              <div class="article__published article__published-right">
-                <p class="published__date">14 июня 2019</p>
+          <article class="left-article right-article">
+            <img src="./images/45.jpg" alt="Картинка поста" class="right-article__img-right">
+            <div class="left-article__subwrap">  
+              <div class="left-article__published right-article__published-right">
+                <p class="left-article__date">14 июня 2019</p>
               </div>
               <a href="#0">
-                <h3 class="article__title-right">
+                <h3 class="right-article__title">
                   как мы превратили классное место в балкон
                 </h3>
               </a>
             </div>
           </article>        
           
-          <article class="left__article right__article">
-            <img src="./images/501.jpg" alt="Картинка поста" class="article__img-right">
-            <div class="article__subwrap-left">  
-              <div class="article__published article__published-right">
-                <p class="published__date">14 июня 2019</p>
+          <article class="left-article right-article">
+            <img src="./images/501.jpg" alt="Картинка поста" class="right-article__img-right">
+            <div class="left-article__subwrap">  
+              <div class="left-article__published right-article__published-right">
+                <p class="left-article__date">14 июня 2019</p>
               </div>
               <a href="#0">
-                <h3 class="article__title-right">
+                <h3 class="right-article__title">
                   Кулинарный подход к науке
                 </h3>
               </a>
             </div>
           </article>        
           
-          <article class="left__article right__article">
-            <img src="./images/7.jpg" alt="Картинка поста" class="article__img-right">
-            <div class="article__subwrap-left">  
-              <div class="article__published article__published-right">
-                <p class="published__date">14 июня 2019</p>
+          <article class="left-article right-article">
+            <img src="./images/7.jpg" alt="Картинка поста" class="right-article__img-right">
+            <div class="left-article__subwrap">  
+              <div class="left-article__published right-article__published-right">
+                <p class="left-article__date">14 июня 2019</p>
               </div>
               <a href="#0">
-                <h3 class="article__title-right">
+                <h3 class="right-article__title">
                   лучшие прически для распущенных волос
                 </h3>
               </a>
@@ -297,20 +301,20 @@
         </div>
         
         <section class="mailing">
-          <div class="section__title section__title-mailing">
-            <h2 class="title-size new__posts-title">Рассылка</h2>
-            <div class="title__line"></div>
+          <div class="section__title mailing__title">
+            <h2 class="title-size new-posts__title">Рассылка</h2>
+            <div class="title-line"></div>
           </div>
           <form>
-            <input class="search__input" type="email" placeholder="Ваш email-адрес">
-            <button class="search__wrap-icon mailing-btn" type="button">Подписаться</button>
+            <input class="search__input mailing__input" type="email" placeholder="Ваш email-адрес">
+            <button class="search__wrap-icon mailing__btn" type="button">Подписаться</button>
           </form>
       </section>
 
       <section class="tegs">
-        <div class="section__title section__title-tegs">
-          <h2 class="title-size new__posts-title">Теги</h2>
-          <div class="title__line"></div>
+        <div class="section__title tegs__section-title">
+          <h2 class="title-size new-posts__title">Теги</h2>
+          <div class="title-line"></div>
         </div>
         <ul class="tegs__list">
             <li><a href="#0" class="tegs__item">Fashion</a></li>
@@ -326,16 +330,16 @@
       
       <section class="thems">
         <div class="section__title">
-          <h2 class="title-size new__posts-title">Темы</h2>
-          <div class="title__line"></div>
+          <h2 class="title-size new-posts__title">Темы</h2>
+          <div class="title-line"></div>
         </div>
         <ul class="thems__list">
-            <li><a href="#" class="them__item">Красота <sup class="them__count">12</sup></a></li>
-            <li><a href="#" class="them__item">Здоровье <sup class="them__count">4</sup></a></li>
-            <li><a href="#" class="them__item">Образ жизни <sup class="them__count">145</sup></a></li>
-            <li><a href="#" class="them__item">Музыка <sup class="them__count">28</sup></a></li>
-            <li><a href="#" class="them__item">Спорт <sup class="them__count">62</sup></a></li>
-            <li><a href="#" class="them__item">Йога <sup class="them__count">8</sup></a></li>
+            <li><a href="#" class="thems__item">Красота <sup class="thems__count">12</sup></a></li>
+            <li><a href="#" class="thems__item">Здоровье <sup class="thems__count">4</sup></a></li>
+            <li><a href="#" class="thems__item">Образ жизни <sup class="thems__count">145</sup></a></li>
+            <li><a href="#" class="thems__item">Музыка <sup class="thems__count">28</sup></a></li>
+            <li><a href="#" class="thems__item">Спорт <sup class="thems__count">62</sup></a></li>
+            <li><a href="#" class="thems__item">Йога <sup class="thems__count">8</sup></a></li>
         </ul>
       </section>
       </aside>
@@ -344,7 +348,7 @@
     <section class="wrap">
       <div class="section__title">
         <h2 class="title-size">Наши изделия</h2>
-        <div class="title__line"></div>
+        <div class="title-line"></div>
       </div>
       <div class="our-products">
         
@@ -358,9 +362,9 @@
               <div class="product__price">
                   <div class="price">
                       <p class="price__old">1000 Р</p>
-                      <p class="price">800 Р</p>
+                      <p class="price__new">800 Р</p>
                   </div>
-                  <a href="#0" class="search__wrap-icon mailing-btn shop-btn">В магазин</a>
+                  <a href="#0" class="search__wrap-icon mailing__btn shop-btn">В магазин</a>
               </div>
           </div>
         </article>
@@ -373,9 +377,9 @@
               <div class="product__price">
                   <div class="price">
                       <p class="price__old"></p>
-                      <p class="price">3500 Р</p>
+                      <p class="price__new">3500 Р</p>
                   </div>
-                  <a href="#0" class="search__wrap-icon mailing-btn shop-btn">В магазин</a>
+                  <a href="#0" class="search__wrap-icon mailing__btn shop-btn">В магазин</a>
               </div>
           </div>
         </article>
@@ -388,9 +392,9 @@
               <div class="product__price">
                   <div class="price">
                       <p class="price__old">500 Р</p>
-                      <p class="price">400 Р</p>
+                      <p class="price__new">400 Р</p>
                   </div>
-                  <a href="#0" class="search__wrap-icon mailing-btn shop-btn">В магазин</a>
+                  <a href="#0" class="search__wrap-icon mailing__btn shop-btn">В магазин</a>
               </div>
           </div>
         </article>
@@ -412,12 +416,12 @@
   <label for="popup-btn" class="popup-btn-open">Показать всплывающее окно</label>
   <input type="checkbox" id="popup-btn" class="popup-checkbox">
   <div class="wrap-popup">
-    <label for="popup-btn" class="popup__close-background"></label>
+    <label for="popup-btn" class="wrap-popup__close-background"></label>
     <form class="popup">
       <label for="popup-btn" class="popup__close-btn" aria-label="Close"></label>
       <div class="section__title">
         <h2 class="title-size">Ваш ФИДБЕк</h2>
-        <div class="title__line"></div>
+        <div class="title-line"></div>
       </div>
       <p class="popup__question">Как часто вы заходите на сайт?</p>
       <select class="search__input select">
@@ -430,17 +434,17 @@
       <p class="popup__question">Вы подписаны на e-mail рассылку?</p>
       <label class="answers">
         <input type="radio" class="visually-hidden" name="answers" checked>
-        <span class="answer__text">Да</span>
+        <span class="answers__text">Да</span>
       </label>
       <label class="answers">
         <input type="radio" class="visually-hidden" name="answers">
-        <span class="answer__text">Нет</span>
+        <span class="answers__text">Нет</span>
       </label>
     
       <p class="popup__question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
       <textarea class="search__input popup__textarea-text" placeholder="Может, больше рецептов?"></textarea>
     
-      <button class="search__wrap-icon mailing-btn" type="submit">Отправить</button>
+      <button class="search__wrap-icon mailing__btn" type="submit">Отправить</button>
     </form>
   </div>
 

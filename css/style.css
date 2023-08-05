@@ -68,7 +68,7 @@ a {
   background-color: rgba(0, 0, 0, 0.6);
 }
   
-.header__title, .menu-list__item {
+.header__title, .menu__list-item {
   color: white;
   text-transform: uppercase;
 }
@@ -107,12 +107,12 @@ a {
   display: flex;
 }
   
-.menu-list__item {
+.menu__list-item {
   font-size: 13px;
   margin-left: 35px;
 }
   
-.menu-list__item:hover {
+.menu__list-item:hover {
   text-decoration: underline;
 }
   
@@ -137,7 +137,7 @@ text-transform: uppercase;
 font-size: 20px;
 }
   
-.title__line {
+.title-line {
   margin-top: 10px;
   width: 67px;
   border: 3px solid rgb(181, 159, 91, 0.4);
@@ -204,7 +204,7 @@ font-size: 20px;
   display: flex;
 }
 
-.article-list__item {
+.article__item {
   margin-right: 20px;
   font-size: 14px;
   line-height: 40px;
@@ -212,7 +212,7 @@ font-size: 20px;
   color: #b59f5b;
 }
 
-.article-list__item:hover {
+.article__item:hover {
   text-decoration: underline;
 }
 
@@ -240,7 +240,7 @@ font-size: 20px;
 	margin-right: 121px;
 }
   
-.article__subwrap-left {
+.left-article__subwrap {
 	margin-top: -15px; /* как прижать к верхней границе, чтоб было на уровне с картинкой без отрицательного margin??? */
 	width: 367px;
 }
@@ -249,20 +249,20 @@ font-size: 20px;
 	color: black;
 }
   
-.left__article {
+.left-article {
 	margin-bottom: 57px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 }
   
-.article__img-left {
+.left-article__img {
 	width: 381px;
 	height: 295px;
 	margin-right: 30px;
 }
   
-.article__published {
+.left-article__published {
 	margin-top: 17px;
 	margin-bottom: 32px;
 	display: -webkit-box;
@@ -274,16 +274,16 @@ font-size: 20px;
 	line-height: 40px;
 }
   
-.published__date {
+.left-article__date {
 	margin-right: 12px;
 	color: #888888;  
 }
   
-.published__author {
+.left-article__author {
 	font-weight: 700;
 }
   
-.article__text {
+.left-article__text {
 	margin-bottom: 15px;
 	font-size: 15px;
 	line-height: 22px;
@@ -294,22 +294,22 @@ font-size: 20px;
 	width: 275px;
 }
   
-.new__posts-title {
+.new-posts__title {
 	font-size: 14px;
 }
   
-.article__img-right {
+.right-article__img-right {
 	width: 70px;
 	height: 70px;
 	margin-right: 20px;
 }
   
-.article__published-right {  
-  margin-top: 0px;
-  margin-bottom: 0px;
+.right-article__published-right {  
+  margin-top: 0;
+  margin-bottom: 0;
 }
   
-.article__title-right {
+.right-article__title {
 	margin-top: -8px;
 	width: 181px;
 	font-size: 14px;
@@ -318,7 +318,7 @@ font-size: 20px;
 	text-transform: uppercase;
 }
   
-.right__article {
+.right-article {
 	margin-top: 20px;
 	margin-bottom: 0;
 }
@@ -373,7 +373,7 @@ font-size: 20px;
           transform: translate(-50%, -50%);
 }
   
-.mailing-btn {
+.mailing__btn {
   position: static;
   width: 100%;
   height: 50px;
@@ -385,7 +385,7 @@ font-size: 20px;
   margin-top: 17px;
 }
 
-.section__title-mailing {
+.mailing__title {
 	margin-bottom: 14px;
 }
   
@@ -393,7 +393,7 @@ font-size: 20px;
 	margin-top: 50px;
 }
 
-.section__title-tegs {
+.tegs__section-title {
 	margin-bottom: 10px;
 }
   
@@ -429,14 +429,14 @@ font-size: 20px;
   text-align: left;
 }
   
-.them__count {
+.thems__count {
   color: #b59f5b;
   font-family: "Open sans";
   font-size: 12px;
   font-weight: 700;
 }
   
-.them__item {
+.thems__item {
   font-size: 14px;
   font-weight: 700;
   display: block;
@@ -445,7 +445,7 @@ font-size: 20px;
   border-bottom: 1px solid #eeeeee;
 }
   
-.them__item:hover {
+.thems__item:hover {
   color: #b59f5b;
 }
   
@@ -606,7 +606,7 @@ font-size: 20px;
   visibility: hidden;
 }
 
-.popup__close-background {
+.wrap-popup__close-background {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -678,12 +678,12 @@ font-size: 20px;
   color: rgba(0, 0, 0, 0.54);
 }
 
-.answer__text {
+.answers__text {
   font-size: 13px;
   margin-right: 7px;
 }
 
-.answer__text::before {
+.answers__text::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -697,7 +697,7 @@ font-size: 20px;
 }
 
 
-[type="radio"]:checked+.answer__text::before {
+[type="radio"]:checked+.answers__text::before {
   background-image: url("../svg/form-circle.svg");
 }
 
